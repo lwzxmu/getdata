@@ -13,20 +13,22 @@ It converts itself in data.table and uses lapply to create independent tidy data
 Note: The working directory is UCI_HAR_Dataset as downloaded directly from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ====================
-ADDITIONAL PACKAGES APPLIED:
+#ADDITIONAL PACKAGES APPLIED:
 
 plyr;
 reshape;
 reshape2;
 
-R VERSION:
+#R VERSION:
 
 R 3.1.0 X64
 
-IDE VERSION:
+#IDE VERSION:
+
 Rstudio 0.98.507
+
 ====================
-##load features and activitylabels as tthe first row of the dataset
+#load features and activitylabels as tthe first row of the dataset
 activity.labels <- read.table("./activity_labels.txt");
 features <- read.table("./features.txt");
 
